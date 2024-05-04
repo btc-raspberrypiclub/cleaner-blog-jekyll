@@ -32,6 +32,6 @@
         "startbootstrap-clean-blog": "6.0.9"
     },
     "devDependencies": {
-        "browser-sync": "^2.29.3"
+        "browser-sync": "^3.0.2"
     }
 }
