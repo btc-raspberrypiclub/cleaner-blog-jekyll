@@ -17,7 +17,6 @@ a blog homepage, about page, contact page, and an example post page.
 <!-- TODO: Create preview screenshot -->
 [![Clean Blog (Jekyll) Preview](https://startbootstrap.com/assets/img/screenshots/themes/clean-blog-jekyll.png)](http://StartBootstrap.github.io/startbootstrap-clean-blog-jekyll/)
 
-<!-- TODO: Verify the install steps -->
 ## Installation & Setup
 
 ### Using RubyGems
@@ -26,10 +25,13 @@ When installing the theme using RubyGems, demo images, posts, and pages are not
 included. Follow the instructions below for complete setup.
 
 1. (Optional) Create a new Jekyll site: `jekyll new my-site`
-2. Replace the current theme in your `Gemfile` with `gem "jekyll-theme-clean-blog"`.
-3. Install the theme (run the command inside your site directory): `bundle install`
+2. Replace the current theme in your `Gemfile` with:
+    ```gemfile
+    gem 'jekyll-theme-cleaner-blog', git: 'https://github.com/btc-raspberrypiclub/cleaner-blog-jekyll'
+    ```
+3. Install the theme by running `bundle install` inside your site directory.
 4. Replace the current theme in your `_config.yml` file with
-`theme: jekyll-theme-clean-blog`.
+`theme: jekyll-theme-cleaner-blog`.
 5. Build your site: `bundle exec jekyll serve`
 
 Assuming there are no errors and the site is building properly, follow these
@@ -81,6 +83,7 @@ matter. Example:
     repository](https://github.com/btc-raspberrypiclub/cleaner-blog-jekyll) to
     see how the files are set up.
 
+<!-- TODO:
 5. Add the form to the `contact.html` page. Add the following code to your
 `contact.html` page:
 
@@ -126,8 +129,9 @@ matter. Example:
     working email address! Once this is set, fill out the form and then check
     your email, verify the email address using the link sent to you by
     Formspree, and then the form will be working!
+-->
 
-6. Build your site: `bundle exec jekyll serve`
+5. Build your site: `bundle exec jekyll serve`
 
 ### Using Core Files
 
@@ -142,9 +146,10 @@ or Clone the repository.
     - `baseurl`
     - `url`
     - `title`
-    - `email` (after setting this setting to a working email address, fill out
-    the form on the contact page and send it - then check your email and verify
-    the address and the form will send you messages when used)
+    - `email`
+    <!--TODO: (after setting this setting to a working email address, fill out
+        the form on the contact page and send it - then check your email and verify
+        the address and the form will send you messages when used)-->
     - `description`
     - `author`
     - `twitter_username` (Optional)
