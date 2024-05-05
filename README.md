@@ -32,6 +32,7 @@ included. Follow the instructions below for complete setup.
 3. Install the theme by running `bundle install` inside your site directory.
 4. Replace the current theme in your `_config.yml` file with
 `theme: jekyll-theme-cleaner-blog`.
+<!-- TODO: Describe adding `navigation` to `_config.yml` -->
 5. Build your site: `bundle exec jekyll serve`
 
 Assuming there are no errors and the site is building properly, follow these
