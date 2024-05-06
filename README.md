@@ -99,6 +99,17 @@ matter. Example:
     repository](https://github.com/btc-raspberrypiclub/cleaner-blog-jekyll) to
     see how the files are set up.
 
+5. Create `404.html` if it doesn't already exist, and modify the front matter.
+    
+    ```markdown
+    ---
+    layout: page
+    title: 404
+    description: Page not found
+    permalink: /404.html
+    ---
+    ```
+
 <!-- TODO:
 
 5. Add the form to the `contact.html` page. Add the following code to your
@@ -148,7 +159,7 @@ matter. Example:
     Formspree, and then the form will be working!
 -->
 
-5. Build your site: `bundle exec jekyll serve`
+6. Build your site: `bundle exec jekyll serve`
 
 ### Using Core Files
 
