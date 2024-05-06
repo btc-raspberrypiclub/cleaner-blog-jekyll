@@ -32,7 +32,23 @@ included. Follow the instructions below for complete setup.
 3. Install the theme by running `bundle install` inside your site directory.
 4. Replace the current theme in your `_config.yml` file with
 `theme: jekyll-theme-cleaner-blog`.
-5. Build your site: `bundle exec jekyll serve`
+5. Add the following variable to your `_config.yml`:
+    ```yaml
+    navigation:
+    - name: Home
+      link: /
+    - name: About
+      link: /about/
+    - name: Posts
+      link: /posts/
+    - name: Contact
+      link: /contact/
+    ```
+
+    This describes the navbar at the top of your site. If it is not present,
+    there will be no links on your navbar. You can add or remove links here to
+    customize your navigation.
+6. Build your site: `bundle exec jekyll serve`
 
 Assuming there are no errors and the site is building properly, follow these
 steps next:
@@ -84,6 +100,7 @@ matter. Example:
     see how the files are set up.
 
 <!-- TODO:
+
 5. Add the form to the `contact.html` page. Add the following code to your
 `contact.html` page:
 

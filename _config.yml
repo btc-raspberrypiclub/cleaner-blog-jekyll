@@ -5,6 +5,17 @@ author: btc-raspberrypiclub
 baseurl: "/cleaner-blog-jekyll"
 url: "https://btc-raspberrypiclub.github.io"
 
+# Navigation links
+navigation:
+  - name: Home
+    link: /
+  - name: About
+    link: /about/
+  - name: Posts
+    link: /posts/
+  - name: Contact
+    link: /contact/
+
 # Social Profiles
 twitter_username:
 github_username: btc-raspberrypiclub
