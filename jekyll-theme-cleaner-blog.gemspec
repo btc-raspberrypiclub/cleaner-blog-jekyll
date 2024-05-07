@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = 'jekyll-theme-cleaner-blog'
-  spec.version       = '0.0.0'
+  spec.version       = '0.1.0'
   spec.authors       = ['btc-raspberrypiclub']
   spec.email         = ['btc.rpiclub@gmail.com']
 
